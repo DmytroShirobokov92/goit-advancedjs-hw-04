@@ -40,19 +40,19 @@ a {
   align-items: center;
 }
 
-.query-form {
+.form {
   display: flex;
   flex-direction: row;
   justify-content: center;
   gap: 16px;
 }
 
-.query-form label {
+.form label {
   width: 272px;
   height: 40px;
 }
 
-.query-input {
+.input {
   width: 100%;
   height: 100%;
   font-family: Montserrat;
@@ -67,11 +67,11 @@ a {
   transition: border 300ms ease-in-out;
 }
 
-.query-input:hover {
+.input:hover {
   border-color: black;
 }
 
-.query-input:focus {
+.input:focus {
   border-color: #4E75FF;
 }
 
